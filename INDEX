@@ -1,50 +1,144 @@
-# Python Cheat Sheet (Beginner Level)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Cheat Sheet (Beginner Level)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        ul {
+            margin-left: 20px;
+        }
+        pre {
+            background-color: #272822;
+            color: #f8f8f2;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            color: #777;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
 
-## Introduction
-Python is a beginner-friendly programming language that is easy to read and understand. 
-It is widely used by students to learn basic programming concepts and problem-solving skills.
+<h1>🐍 Python Cheat Sheet (Beginner Level)</h1>
 
-## Key Concepts
-- Simple and readable syntax
-- Uses indentation instead of braces
-- Dynamically typed language
-- Open-source and free to use
+<div class="section">
+    <h2>Introduction</h2>
+    <p>
+        Python is a beginner-friendly programming language that is easy to read and understand.
+        It is widely used by students to learn basic programming concepts and problem-solving skills.
+    </p>
+</div>
 
-## Simple Syntax Examples
-Variables  
-x = 10  
+<div class="section">
+    <h2>Key Concepts</h2>
+    <ul>
+        <li>Simple and readable syntax</li>
+        <li>Uses indentation instead of braces</li>
+        <li>Dynamically typed language</li>
+        <li>Open-source and free to use</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Simple Syntax Examples</h2>
+
+    <h3>Variables</h3>
+    <pre>
+x = 10
 name = "Python"
+    </pre>
 
-Data Types  
-a = 5  
-b = 2.5  
+    <h3>Data Types</h3>
+    <pre>
+a = 5
+b = 2.5
 c = "Hello"
+    </pre>
 
-Conditional Statement  
+    <h3>Conditional Statement</h3>
+    <pre>
 if a > 3:
     print("Greater than 3")
+    </pre>
 
-Loop  
+    <h3>Loop</h3>
+    <pre>
 for i in range(3):
     print(i)
+    </pre>
 
-List  
+    <h3>List</h3>
+    <pre>
 numbers = [1, 2, 3]
+    </pre>
+</div>
 
-## Real-Life or Business Use Case
-In economics and business studies, Python is used to perform simple calculations, understand logical conditions, and work with basic data efficiently.
+<div class="section">
+    <h2>Real-Life or Business Use Case</h2>
+    <p>
+        In economics and business studies, Python is used to perform simple calculations,
+        understand logical conditions, and work with basic data efficiently.
+    </p>
+</div>
 
-## Advantages
-- Very easy for beginners to learn
-- Requires fewer lines of code
-- Large community support
-- Useful in academics and business fields
+<div class="section">
+    <h2>Advantages</h2>
+    <ul>
+        <li>Very easy for beginners to learn</li>
+        <li>Requires fewer lines of code</li>
+        <li>Large community support</li>
+        <li>Useful in academics and business fields</li>
+    </ul>
+</div>
 
-## Limitations
-- Slower execution speed compared to some languages
-- Not suitable for mobile app development
-- High memory usage in some cases
+<div class="section">
+    <h2>Limitations</h2>
+    <ul>
+        <li>Slower execution speed compared to some languages</li>
+        <li>Not suitable for mobile app development</li>
+        <li>High memory usage in some cases</li>
+    </ul>
+</div>
 
-## Summary
-A Python cheat sheet acts as a quick reference guide for beginners. 
-It helps students revise syntax easily and supports effective learning of programming fundamentals.
+<div class="section">
+    <h2>Summary</h2>
+    <p>
+        A Python cheat sheet acts as a quick reference guide for beginners.
+        It helps students revise syntax easily and supports effective learning
+        of programming fundamentals.
+    </p>
+</div>
+
+<footer>
+    <p>Python Cheat Sheet – Beginner Level 📘</p>
+</footer>
+
+</body>
+</html>
