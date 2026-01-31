@@ -1,0 +1,50 @@
+# Python Cheat Sheet (Beginner Level)
+
+## Introduction
+Python is a beginner-friendly programming language that is easy to read and understand. 
+It is widely used by students to learn basic programming concepts and problem-solving skills.
+
+## Key Concepts
+- Simple and readable syntax
+- Uses indentation instead of braces
+- Dynamically typed language
+- Open-source and free to use
+
+## Simple Syntax Examples
+Variables  
+x = 10  
+name = "Python"
+
+Data Types  
+a = 5  
+b = 2.5  
+c = "Hello"
+
+Conditional Statement  
+if a > 3:
+    print("Greater than 3")
+
+Loop  
+for i in range(3):
+    print(i)
+
+List  
+numbers = [1, 2, 3]
+
+## Real-Life or Business Use Case
+In economics and business studies, Python is used to perform simple calculations, understand logical conditions, and work with basic data efficiently.
+
+## Advantages
+- Very easy for beginners to learn
+- Requires fewer lines of code
+- Large community support
+- Useful in academics and business fields
+
+## Limitations
+- Slower execution speed compared to some languages
+- Not suitable for mobile app development
+- High memory usage in some cases
+
+## Summary
+A Python cheat sheet acts as a quick reference guide for beginners. 
+It helps students revise syntax easily and supports effective learning of programming fundamentals.
