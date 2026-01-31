@@ -1,144 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Python Cheat Sheet (Beginner Level)</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        h2 {
-            color: #34495e;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-        .section {
-            background-color: #ffffff;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 6px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        ul {
-            margin-left: 20px;
-        }
-        pre {
-            background-color: #272822;
-            color: #f8f8f2;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        footer {
-            text-align: center;
-            color: #777;
-            margin-top: 30px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Econtago | CHRIST University</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #000;
+      color: #f5f5f5;
+    }
+
+    /* HEADER */
+    header {
+      background: #000;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 3px solid #ff7a00;
+    }
+
+    header img {
+      width: 120px;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 10px 0;
+      color: #ff7a00;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    /* NAVBAR */
+    nav {
+      background: #ff7a00;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #ff7a00;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #111;
+      padding: 25px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border-left: 4px solid #ff7a00;
+    }
+
+    /* DROPDOWN */
+    details {
+      margin-bottom: 15px;
+      background: #111;
+      padding: 15px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    summary {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ff7a00;
+      outline: none;
+    }
+
+    details p {
+      margin-top: 10px;
+      color: #ddd;
+    }
+
+    /* GALLERY */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #ff7a00;
+      color: #000;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>🐍 Python Cheat Sheet (Beginner Level)</h1>
+  <!-- HEADER -->
+  <header>
+    <img src="logo.png" alt="Econtago Logo">
+    <h1>Econtago</h1>
+    <p>The Economics Association of CHRIST (Deemed to be University)<br>BRC Campus</p>
+  </header>
 
-<div class="section">
-    <h2>Introduction</h2>
-    <p>
-        Python is a beginner-friendly programming language that is easy to read and understand.
-        It is widely used by students to learn basic programming concepts and problem-solving skills.
-    </p>
-</div>
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<div class="section">
-    <h2>Key Concepts</h2>
-    <ul>
-        <li>Simple and readable syntax</li>
-        <li>Uses indentation instead of braces</li>
-        <li>Dynamically typed language</li>
-        <li>Open-source and free to use</li>
-    </ul>
-</div>
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Us</h2>
+    <div class="card">
+      <p>
+        Econtago is the official Economics Association of CHRIST (Deemed to be University),
+        Bannerghatta Road Campus. We strive to foster economic awareness, critical thinking,
+        and academic engagement through flagship events, discussions, and competitions.
+      </p>
+    </div>
+  </section>
 
-<div class="section">
-    <h2>Simple Syntax Examples</h2>
+  <!-- EVENTS -->
+  <section id="events">
+    <h2>Events We Host</h2>
 
-    <h3>Variables</h3>
-    <pre>
-x = 10
-name = "Python"
-    </pre>
+    <details>
+      <summary>Arthotsav</summary>
+      <p>
+        Arthotsav is an economics-focused event designed to blend analytical thinking,
+        creativity, and competitive spirit through curated activities and challenges.
+      </p>
+    </details>
 
-    <h3>Data Types</h3>
-    <pre>
-a = 5
-b = 2.5
-c = "Hello"
-    </pre>
+    <details>
+      <summary>1776 Syndrome</summary>
+      <p>
+        Our flagship national-level economics fest featuring debates, quizzes,
+        simulations, policy discussions, and expert panels.
+      </p>
+    </details>
 
-    <h3>Conditional Statement</h3>
-    <pre>
-if a > 3:
-    print("Greater than 3")
-    </pre>
+    <details>
+      <summary>Vrittee</summary>
+      <p>
+        Vrittee focuses on intellectual discourse, student-led discussions,
+        and platforms that encourage research-based economic conversations.
+      </p>
+    </details>
 
-    <h3>Loop</h3>
-    <pre>
-for i in range(3):
-    print(i)
-    </pre>
+    <details>
+      <summary>Many More</summary>
+      <p>
+        In addition to our flagship events, Econtago hosts workshops, panel discussions,
+        budget analyses, and collaborative academic initiatives throughout the year.
+      </p>
+    </details>
 
-    <h3>List</h3>
-    <pre>
-numbers = [1, 2, 3]
-    </pre>
-</div>
+  </section>
 
-<div class="section">
-    <h2>Real-Life or Business Use Case</h2>
-    <p>
-        In economics and business studies, Python is used to perform simple calculations,
-        understand logical conditions, and work with basic data efficiently.
-    </p>
-</div>
+  <!-- GALLERY -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="event1.jpg" alt="Event Image">
+      <img src="event2.jpg" alt="Event Image">
+      <img src="event3.jpg" alt="Event Image">
+    </div>
+  </section>
 
-<div class="section">
-    <h2>Advantages</h2>
-    <ul>
-        <li>Very easy for beginners to learn</li>
-        <li>Requires fewer lines of code</li>
-        <li>Large community support</li>
-        <li>Useful in academics and business fields</li>
-    </ul>
-</div>
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="card">
+      <p>Email: econtago@christuniversity.in</p>
+      <p>Instagram: @econtago</p>
+    </div>
+  </section>
 
-<div class="section">
-    <h2>Limitations</h2>
-    <ul>
-        <li>Slower execution speed compared to some languages</li>
-        <li>Not suitable for mobile app development</li>
-        <li>High memory usage in some cases</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>Summary</h2>
-    <p>
-        A Python cheat sheet acts as a quick reference guide for beginners.
-        It helps students revise syntax easily and supports effective learning
-        of programming fundamentals.
-    </p>
-</div>
-
-<footer>
-    <p>Python Cheat Sheet – Beginner Level 📘</p>
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 ECONTAGO | CHRIST (Deemed to be University)
+  </footer>
 
 </body>
 </html>
